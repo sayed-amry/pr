@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin:0;
     padding:0;
@@ -31,20 +32,41 @@ header .header1{
   font-size: 95%;
   
 }
-.header1 .email a{
-  width:90% ;
-  
+#email1{
+    color: #6b52df;
+    padding: 2px 0 0 0;
 }
-.header1 .icon{
+.header1 .email #email2{
+  width:90% ;
+}
+#email2:link, #email2:visited {
+  text-decoration: none;
+  color: #6b52df;
+ }
+#tel2:link, #tel2:visited {
+  text-decoration: none;
+  color: #6b52df;
+  
+ }
+#email2:hover, #email2:active {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+ }
+#tel2:hover, #tel2:active {
+  color: rgb(0, 0, 0);
+  
+ }
+
+.header1 .icon {
     width: 17.5%; 
     display: flex;
     position: sticky;
     left: 68rem;
-    gap: 21%;
+    gap: 9%;
 }
-.header1 .icon i{
+.header1 .icon a i{
     font-size:larger; 
-    
+    color:#6b52df;
 }  
 .tel{
     width: 33%;
@@ -54,7 +76,7 @@ header .header1{
     width: 100%;
     gap: 6px;
 }
-.tel .icon a{
+.tel .icon #tel2{
     width: 94%;
 }
 .tel .icon i{
@@ -72,8 +94,8 @@ header .header2{
 .header2 .jp {
     width: 30%;
 }
-.header2 .jp img{
-    width: 50%;
+.header2 .jp  img{
+    width: 40%;
 }
 .header2 .content{
     width: 30%;
@@ -81,28 +103,29 @@ header .header2{
     align-items: center;
     justify-content: center;
     gap: 15px;
-}
-.header2 .content .page{
-    content: "";
-    background-image: url(./img/download);
+    a {
+        text-decoration: none; 
+        color: #000; 
+    }
 }
 .header2 .button{
     width: 30%;
     height: 100%;
-    padding: 1rem 0 23px 1rem;
+    padding: 2rem 1rem;
     position: sticky;
     left: 68rem;
-    text-align: center;
-}
-.header2 .button button{
-    width: 50%;
-    height: 100%;
-    border: none;
-    background-color: #defd7f;
-    border-radius: 10px;
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a:link,a:visited{
+        padding: 8px 30px;
+        border-radius:10px ;
+        background-color: #defd7f;
+        color: #000;
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        
+    }
 }
 .s1{
   width: 100%;
