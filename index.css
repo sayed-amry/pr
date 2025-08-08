@@ -228,8 +228,46 @@ header .header2{
 }
 .s3{
     width: 100%;  
-    height: 40vh;  
-     background-color: #8c7ffd;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-color: #fd7f7f;
+    .text-s3{
+       width: 40%;
+       height: 90%;
+    }
+     
+    .png-s3{
+       width: 60%;
+       height: 100%;
+       background-color: #222714;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       position: relative;
+       #png1{
+            width: 80%;
+            position:absolute;
+            right: 5rem;
+            top: 42px;
+            img{
+                width: 85%;
+            }
+       }
+       #png2{
+          width: 70%;
+          position:absolute;
+          bottom: 5rem;
+          left: 7rem;
+          text-align: center;
+        img{  
+          width: 90%;
+          border-radius: 1rem;
+        }
+       }
+    }
+     
 }
 .s4{
     width: 100%;  
