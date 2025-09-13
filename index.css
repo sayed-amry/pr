@@ -168,10 +168,13 @@ header .header2{
         width: 70% ;
         height: 40%;
         color: #defd7f;
-        h1{
-          font-family: "Bricolage Grotesque", sans-serif;  
-          font-size: 80px;  
+        
+        .test1{
+            --animate-duration: 2s;
+            font-family: "Bricolage Grotesque", sans-serif;  
+            font-size: 80px;  
         }
+        
       }
       .text2{
           width: 70% ;
@@ -303,3 +306,8 @@ header .header2{
 }
 
 
+.test{
+    .animate__animated.animate__bounce {
+       --animate-duration: 5s;
+      }
+}
